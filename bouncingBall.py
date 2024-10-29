@@ -144,7 +144,7 @@ def main():
     clock = pygame.time.Clock()
 
     start_button = Button(100, 650, 120, 40, "start game", BLACK)
-    agent_button = Button(400, 650, 100, 40, "Agent_play", BLACK)
+    agent_button = Button(400, 650, 140, 40, "Agent_play", BLACK)
 
     ball_count_box = InputBox(100, 560, 50, 32)
     ball_size_box = InputBox(250, 560, 50, 32)
